@@ -1,0 +1,134 @@
+/* Global */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Nav Bar*/
+li{
+    float: left;
+    display: inline;
+    margin: 15px 10px 0 10px;
+}
+
+header #brand{
+    float: left;
+    margin-left: 20px;
+}
+
+header nav{
+    float: right;
+    margin-right: 20px;
+}
+
+header{
+    background: rgb(5,0,92);
+    background: linear-gradient(90deg, rgba(5,0,92,1) 0%, rgba(0,5,221,1) 50%, rgba(0,2,92,1) 100%);
+    min-height: 70px;
+    padding-top: 25px;
+    border-bottom: 2px solid red;
+
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.highlight{
+    color: orange;
+}
+
+a:hover{
+    color: red;
+}
+
+header .current a{
+    color: orange;
+}
+
+/* Showcase */
+
+#showcase{
+    min-height: 350px;
+    background: url(/img/showcase.png) no-repeat 0 -250px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/* Boxes*/
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 120px;
+}
+
+hr{
+    border: dotted rgb(91, 91, 255) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    color: white;
+    background: rgb(5,0,92);
+    background: linear-gradient(90deg, rgba(5,0,92,1) 0%, rgba(0,5,221,1) 50%, rgba(0,2,92,1) 100%);
+    border-top: 2px solid red;
+    padding: 3px;
+}
+
+/* Contact Form */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+
+
+.container-form{
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 350px;
+}
