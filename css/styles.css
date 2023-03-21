@@ -77,6 +77,11 @@ header .current a{
 
 /* Boxes*/
 
+.container__boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
 #boxes{
     margin-top: 20px;
 }
